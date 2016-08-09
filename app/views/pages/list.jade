@@ -1,0 +1,55 @@
+extends ../layout.jade
+
+block append scripts
+	script(src="js/list.js")
+
+block content
+	section#list
+		
+		if showOk
+			div.alert.alert-success 
+				+icono("ok","Tags guardados correctamente.")
+		if showContinueAndSaveFinish
+			div.alert.alert-success 
+				+icono("ok","Tags guardados correctamente. No quedan más posts sin taggear en esta categoría")
+				
+		div.collapse.navbar-collapse
+			ul.filters.nav.navbar-nav.navbar-left
+				//li Filtro: 
+					strong Blog "aromateri"
+					+icono("remove")
+			ul.buttons.nav.navbar-nav.navbar-right
+				li
+					button(type="button")#btnNext
+						+icono("tag","Etiquetar")
+				if isAdmin
+					li.liAdmin Admin:
+					li.dropdown
+						button(data-toggle="dropdown").dropdown-toggle.btn#btnAdministrar
+							span.glyphicon.glyphicon-wrench
+							span Administrar
+							span.caret
+						ul.dropdown-menu
+							each item in adminNavInfo
+								li 
+									a(href=item.listPath)= item.name
+					li
+						button(type="button")#btnSync
+							+icono("refresh","Sincronizar")
+				
+		if posts
+			table#tblPostList.table.table-hover
+				thead
+					tr
+						th Fecha
+						th Blog
+						th ID
+						th Tags
+				tbody
+					each post in posts
+						tr(data-id= post._id.toString(), class=!post.tagged ? "notTagged" : "" )
+							td= post.dateAdded
+							td
+								a(href="#")= post.blog.name
+							td= post.postId
+							td= post.tagsList

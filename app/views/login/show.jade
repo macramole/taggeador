@@ -1,0 +1,28 @@
+extends ../layout.jade
+
+block append scripts
+	script(src="js/login.js")
+
+block append css
+	link(rel="stylesheet", href="css/animate.css")
+
+block content
+	section#login
+		//h2 Ingresar
+		form(action="/login")
+			fieldset
+				h2 Ingresar
+				.form-group
+					.input-group
+						.input-group-addon
+							span.glyphicon.glyphicon-user
+						input(name="username", placeholder="Usuario").form-control
+				.form-group
+					.input-group
+						.input-group-addon
+							span.glyphicon.glyphicon-lock
+						input(name="password", placeholder="Contraseña", type="password").form-control
+				.form-group
+					button 
+						span.glyphicon.glyphicon-ok
+						span Ingresar

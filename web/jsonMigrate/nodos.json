@@ -1,0 +1,644 @@
+{
+    "title": "MUNTREF Art & Science Node",
+    "id": 1,
+    "formatVersion": 2,
+    "ideas": {
+        "1": {
+            "title": "Integrative Neuroscience Lab",
+            "id": 4,
+            "ideas": {
+                "7": {
+                    "title": "Participating Institutions",
+                    "id": 16,
+                    "ideas": {
+                        "1": {
+                            "title": "Torcuato Di Tella University",
+                            "id": 5,
+                            "attr": {
+                                "style": {
+                                    "background": "#0000ff"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "University of Buenos Aires",
+                            "id": 6,
+                            "ideas": {},
+                            "attr": {
+                                "style": {
+                                    "background": "#0000ff"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#0000ff"
+                        }
+                    }
+                },
+                "8": {
+                    "title": "Research Subjects",
+                    "id": 17,
+                    "ideas": {
+                        "1": {
+                            "title": "Children Learning and cognition",
+                            "id": 9,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Visual Cognition",
+                            "id": 11,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        },
+                        "3": {
+                            "title": "Reading - Text Neuroscience",
+                            "id": 12,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        },
+                        "4": {
+                            "title": "Smell - Music Interaction",
+                            "id": 13,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#ffcc00"
+                        }
+                    }
+                },
+                "9": {
+                    "title": "Team",
+                    "id": 18,
+                    "attr": {
+                        "style": {
+                            "background": "#99cc00"
+                        }
+                    },
+                    "ideas": {
+                        "1": {
+                            "title": "Mariano Sigman (scientist)",
+                            "id": 19,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Mariano Sardon (artist)",
+                            "id": 20,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "3": {
+                            "title": "Cecilia Calero (scientist)",
+                            "id": 21,
+                            "ideas": {},
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "4": {
+                            "title": "German Ito (artist)",
+                            "id": 23,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "5": {
+                            "title": "Eliana Rosales (artist)",
+                            "id": 24,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "6": {
+                            "title": "Alejandro Suarez Pryjmaczuk (artist)",
+                            "id": 25,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "7": {
+                            "title": "Diego Shalom (scientist)",
+                            "id": 26,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "8": {
+                            "title": "Juan Kamienkowski (scientist)",
+                            "id": 27,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "9": {
+                            "title": "Bruno Mesz (scientist + musician)",
+                            "id": 28,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "attr": {
+                "style": {
+                    "background": "#ff0000"
+                },
+                "position": [
+                    90,
+                    180,
+                    1
+                ]
+            }
+        },
+        "2": {
+            "title": "Cultura Foundation & Patagonia Robotics",
+            "id": 40,
+            "ideas": {
+                "1": {
+                    "title": "Research Subjects",
+                    "id": 41,
+                    "ideas": {
+                        "1": {
+                            "title": "Material processing and experimentation",
+                            "id": 42,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "CNC Cutting - routers and robotics for art applications",
+                            "id": 43,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#ffcc00"
+                        }
+                    }
+                },
+                "2": {
+                    "title": "Team",
+                    "id": 44,
+                    "ideas": {
+                        "1": {
+                            "title": "Mariano Sardon (artist)",
+                            "id": 45,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Juan Rey (artist)",
+                            "id": 46,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "3": {
+                            "title": "German Ito (artist)",
+                            "id": 47,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#99cc00"
+                        }
+                    }
+                }
+            },
+            "attr": {
+                "style": {
+                    "background": "#0000ff"
+                }
+            }
+        },
+        "3": {
+            "title": "Pharmacy and Biochemistry Dept.",
+            "id": 60,
+            "ideas": {
+                "1": {
+                    "title": "Participating Institutions",
+                    "id": 61,
+                    "ideas": {
+                        "1": {
+                            "title": "University of Buenos Aires",
+                            "id": 62,
+                            "attr": {
+                                "style": {
+                                    "background": "#0000ff"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#0000ff"
+                        }
+                    }
+                },
+                "2": {
+                    "title": "Research Subjects",
+                    "id": 63,
+                    "ideas": {
+                        "1": {
+                            "title": "Bioluminiscence Interaction",
+                            "id": 64,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#ffcc00"
+                        }
+                    }
+                },
+                "3": {
+                    "title": "Team",
+                    "id": 65,
+                    "ideas": {
+                        "1": {
+                            "title": "Laura Olade (artist)",
+                            "id": 66,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Rodrigo Gonzalez (scientist)",
+                            "id": 67,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#99cc00"
+                        }
+                    }
+                }
+            },
+            "attr": {
+                "style": {
+                    "background": "#ff0000"
+                }
+            }
+        },
+        "-1": {
+            "title": "Mathematics Department",
+            "id": 29,
+            "attr": {
+                "position": [
+                    268.5,
+                    8,
+                    2
+                ],
+                "style": {
+                    "background": "#ff0000"
+                }
+            },
+            "ideas": {
+                "1": {
+                    "title": "Participating Institutions",
+                    "id": 30,
+                    "ideas": {
+                        "1": {
+                            "title": "University of Buenos Aires",
+                            "id": 31,
+                            "attr": {
+                                "style": {
+                                    "background": "#0000ff"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "University of Quilmes",
+                            "id": 32,
+                            "attr": {
+                                "style": {
+                                    "background": "#0000ff"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#0000ff"
+                        }
+                    }
+                },
+                "2": {
+                    "title": "Research Subjects",
+                    "id": 33,
+                    "ideas": {
+                        "1": {
+                            "title": "Musical gender and emerging systems",
+                            "id": 34,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Music reading and neuroscience",
+                            "id": 35,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#ffcc00"
+                        }
+                    }
+                },
+                "3": {
+                    "title": "Team",
+                    "id": 36,
+                    "ideas": {
+                        "1": {
+                            "title": "Pablo Amster (musician + mathematician)",
+                            "id": 37,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Bruno Mesz (musician + mathematician)",
+                            "id": 38,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "3": {
+                            "title": "Rodrigo Valla (musician)",
+                            "id": 39,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#99cc00"
+                        }
+                    }
+                }
+            }
+        },
+        "-2": {
+            "title": "Biological Chemistry Institute",
+            "id": 49,
+            "ideas": {
+                "1": {
+                    "title": "Participating Institutions",
+                    "id": 50,
+                    "ideas": {
+                        "1": {
+                            "title": "University of Buenos Aires",
+                            "id": 51,
+                            "attr": {
+                                "style": {
+                                    "background": "#0000ff"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#0000ff"
+                        }
+                    }
+                },
+                "2": {
+                    "title": "Research Subjects",
+                    "id": 52,
+                    "ideas": {
+                        "1": {
+                            "title": "Synthetic Biology",
+                            "id": 53,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Macroscopic visualisation of DNA and proteins",
+                            "id": 54,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#ffcc00"
+                        }
+                    }
+                },
+                "3": {
+                    "title": "Team",
+                    "id": 55,
+                    "ideas": {
+                        "1": {
+                            "title": "Alejandro Nadra (scientist)",
+                            "id": 57,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Laura Olade (artist)",
+                            "id": 58,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "3": {
+                            "title": "Diego Ferreiro (scientist)",
+                            "id": 59,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#99cc00"
+                        }
+                    }
+                }
+            },
+            "attr": {
+                "style": {
+                    "background": "#ff0000"
+                }
+            }
+        },
+        "-3": {
+            "title": "Alunco Foundation - Transdisciplinary Center for Rehabilitation",
+            "id": 68,
+            "ideas": {
+                "1": {
+                    "title": "Research Subjects",
+                    "id": 70,
+                    "ideas": {
+                        "1": {
+                            "title": "Interfaces for neuro-rehabilitation",
+                            "id": 72,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Interfaces for autism disorder",
+                            "id": 73,
+                            "attr": {
+                                "style": {
+                                    "background": "#ffcc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#ffcc00"
+                        }
+                    }
+                },
+                "2": {
+                    "title": "Team",
+                    "id": 74,
+                    "ideas": {
+                        "1": {
+                            "title": "Gala  Gonzalez (artist + therapist)",
+                            "id": 75,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "2": {
+                            "title": "Melisa Godoy (neuro-cognitive therapist)",
+                            "id": 76,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        },
+                        "3": {
+                            "title": "Fernando Perez (therapist)",
+                            "id": 77,
+                            "attr": {
+                                "style": {
+                                    "background": "#99cc00"
+                                }
+                            }
+                        }
+                    },
+                    "attr": {
+                        "style": {
+                            "background": "#99cc00"
+                        }
+                    }
+                }
+            },
+            "attr": {
+                "style": {
+                    "background": "#0000ff"
+                }
+            }
+        }
+    },
+    "export": {
+        "title": "MUNTREF Art & Science Node",
+        "slug": "muntref_art_science_node",
+        "description": "MindMup mind map: MUNTREF Art & Science Node"
+    }
+}

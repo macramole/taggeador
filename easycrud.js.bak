@@ -1,0 +1,39 @@
+var walk = require('walk');
+var models = {};
+
+var PATH_MODELS = "app/models/";
+var PATH_REQUIRE_MODELS = "../../../../../app/models/";
+
+function populateModels() {
+	var walker = walk.walk(PATH_MODELS);
+	
+	walker.on("file", function(root, fileStat, next) {
+		var model = require(__dirname + '/' + PATH_MODELS + fileStat.name);
+		models[model.modelName] = model;
+		next();
+	});
+	
+	walker.on("end", function() {
+		/*for ( model in models ) {
+			console.log(model);
+		}*/
+	});
+}
+
+function doList(model) {
+	
+}
+
+module.exports = {
+	route : function(app) {
+		populateModels();
+		
+		app.get("/admin/:model", function(req,res,next) {
+			if ( req.param("a") ==  "a" ) {
+				res.end( "yes" );
+			} else {
+				next();
+			}			
+		});
+	}
+};

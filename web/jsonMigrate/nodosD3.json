@@ -1,0 +1,243 @@
+{
+    "name": "MUNTREF Art & Science Node",
+    "children": [
+        {
+            "name": "Integrative Neuroscience Lab",
+            "children": [
+                {
+                    "name": "Participating Institutions",
+                    "children": [
+                        {
+                            "name": "Torcuato Di Tella University"
+                        },
+                        {
+                            "name": "University of Buenos Aires",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Research Subjects",
+                    "children": [
+                        {
+                            "name": "Children Learning and cognition"
+                        },
+                        {
+                            "name": "Visual Cognition"
+                        },
+                        {
+                            "name": "Reading - Text Neuroscience"
+                        },
+                        {
+                            "name": "Smell - Music Interaction"
+                        }
+                    ]
+                },
+                {
+                    "name": "Team",
+                    "children": [
+                        {
+                            "name": "Mariano Sigman (scientist)"
+                        },
+                        {
+                            "name": "Mariano Sardon (artist)"
+                        },
+                        {
+                            "name": "Cecilia Calero (scientist)",
+                            "children": []
+                        },
+                        {
+                            "name": "German Ito (artist)"
+                        },
+                        {
+                            "name": "Eliana Rosales (artist)"
+                        },
+                        {
+                            "name": "Alejandro Suarez Pryjmaczuk (artist)"
+                        },
+                        {
+                            "name": "Diego Shalom (scientist)"
+                        },
+                        {
+                            "name": "Juan Kamienkowski (scientist)"
+                        },
+                        {
+                            "name": "Bruno Mesz (scientist + musician)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cultura Foundation & Patagonia Robotics",
+            "children": [
+                {
+                    "name": "Research Subjects",
+                    "children": [
+                        {
+                            "name": "Material processing and experimentation"
+                        },
+                        {
+                            "name": "CNC Cutting - routers and robotics for art applications"
+                        }
+                    ]
+                },
+                {
+                    "name": "Team",
+                    "children": [
+                        {
+                            "name": "Mariano Sardon (artist)"
+                        },
+                        {
+                            "name": "Juan Rey (artist)"
+                        },
+                        {
+                            "name": "German Ito (artist)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pharmacy and Biochemistry Dept.",
+            "children": [
+                {
+                    "name": "Participating Institutions",
+                    "children": [
+                        {
+                            "name": "University of Buenos Aires"
+                        }
+                    ]
+                },
+                {
+                    "name": "Research Subjects",
+                    "children": [
+                        {
+                            "name": "Bioluminiscence Interaction"
+                        }
+                    ]
+                },
+                {
+                    "name": "Team",
+                    "children": [
+                        {
+                            "name": "Laura Olade (artist)"
+                        },
+                        {
+                            "name": "Rodrigo Gonzalez (scientist)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mathematics Department",
+            "children": [
+                {
+                    "name": "Participating Institutions",
+                    "children": [
+                        {
+                            "name": "University of Buenos Aires"
+                        },
+                        {
+                            "name": "University of Quilmes"
+                        }
+                    ]
+                },
+                {
+                    "name": "Research Subjects",
+                    "children": [
+                        {
+                            "name": "Musical gender and emerging systems"
+                        },
+                        {
+                            "name": "Music reading and neuroscience"
+                        }
+                    ]
+                },
+                {
+                    "name": "Team",
+                    "children": [
+                        {
+                            "name": "Pablo Amster (musician + mathematician)"
+                        },
+                        {
+                            "name": "Bruno Mesz (musician + mathematician)"
+                        },
+                        {
+                            "name": "Rodrigo Valla (musician)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Biological Chemistry Institute",
+            "children": [
+                {
+                    "name": "Participating Institutions",
+                    "children": [
+                        {
+                            "name": "University of Buenos Aires"
+                        }
+                    ]
+                },
+                {
+                    "name": "Research Subjects",
+                    "children": [
+                        {
+                            "name": "Synthetic Biology"
+                        },
+                        {
+                            "name": "Macroscopic visualisation of DNA and proteins"
+                        }
+                    ]
+                },
+                {
+                    "name": "Team",
+                    "children": [
+                        {
+                            "name": "Alejandro Nadra (scientist)"
+                        },
+                        {
+                            "name": "Laura Olade (artist)"
+                        },
+                        {
+                            "name": "Diego Ferreiro (scientist)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Alunco Foundation - Transdisciplinary Center for Rehabilitation",
+            "children": [
+                {
+                    "name": "Research Subjects",
+                    "children": [
+                        {
+                            "name": "Interfaces for neuro-rehabilitation"
+                        },
+                        {
+                            "name": "Interfaces for autism disorder"
+                        }
+                    ]
+                },
+                {
+                    "name": "Team",
+                    "children": [
+                        {
+                            "name": "Gala  Gonzalez (artist + therapist)"
+                        },
+                        {
+                            "name": "Melisa Godoy (neuro-cognitive therapist)"
+                        },
+                        {
+                            "name": "Fernando Perez (therapist)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

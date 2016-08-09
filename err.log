@@ -1,0 +1,112 @@
+Fri, 08 May 2015 21:22:41 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Fri, 08 May 2015 21:22:41 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Fri, 08 May 2015 21:22:41 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:16:20
+Fri, 08 May 2015 21:23:08 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Fri, 08 May 2015 21:23:08 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Fri, 08 May 2015 21:23:08 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:16:20
+Tue, 18 Aug 2015 15:48:41 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Tue, 18 Aug 2015 15:48:41 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Tue, 18 Aug 2015 15:48:41 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:16:20
+Tue, 18 Aug 2015 15:58:47 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Tue, 18 Aug 2015 15:58:47 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Tue, 18 Aug 2015 15:58:47 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:16:20
+Thu, 24 Sep 2015 21:10:44 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 24 Sep 2015 21:10:44 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 24 Sep 2015 21:10:44 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:16:20
+Thu, 24 Sep 2015 21:16:04 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 24 Sep 2015 21:16:04 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 24 Sep 2015 21:16:04 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 24 Sep 2015 21:23:23 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 24 Sep 2015 21:23:23 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 24 Sep 2015 21:23:23 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 24 Sep 2015 21:31:32 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 24 Sep 2015 21:31:32 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 24 Sep 2015 21:31:32 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 24 Sep 2015 23:32:27 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 24 Sep 2015 23:32:27 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 24 Sep 2015 23:32:28 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 24 Sep 2015 23:33:44 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 24 Sep 2015 23:33:44 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 24 Sep 2015 23:33:44 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 24 Sep 2015 23:33:59 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 24 Sep 2015 23:33:59 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 24 Sep 2015 23:34:00 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 24 Sep 2015 23:34:27 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 24 Sep 2015 23:34:27 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 24 Sep 2015 23:34:27 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Mon, 02 Nov 2015 22:41:25 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Mon, 02 Nov 2015 22:41:25 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Mon, 02 Nov 2015 22:41:25 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 19 Nov 2015 17:12:24 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 19 Nov 2015 17:12:24 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 19 Nov 2015 17:12:24 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 19 Nov 2015 17:14:15 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 19 Nov 2015 17:14:15 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 19 Nov 2015 17:14:16 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 19 Nov 2015 18:26:27 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 19 Nov 2015 18:26:27 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 19 Nov 2015 18:26:27 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 19 Nov 2015 18:48:59 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 19 Nov 2015 18:48:59 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 19 Nov 2015 18:48:59 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Thu, 19 Nov 2015 18:53:54 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 19 Nov 2015 18:53:54 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Thu, 19 Nov 2015 18:53:55 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Error: Forbidden
+    at SendStream.error (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/send/index.js:245:16)
+    at SendStream.pipe (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/send/index.js:427:19)
+    at Object.serveStatic [as handle] (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:111:12)
+    at next (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at Object.favicon [as handle] (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/node_modules/serve-favicon/index.js:63:7)
+    at next (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at Object.handle (/home/ubuntu/taggeador_lcm/node_modules/connect-powered-by/lib/poweredBy.js:16:5)
+    at next (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at Object.logger (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/node_modules/morgan/index.js:136:5)
+    at next (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+Wed, 04 May 2016 19:53:32 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Wed, 04 May 2016 19:53:32 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Wed, 04 May 2016 19:53:32 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Wed, 04 May 2016 19:56:04 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Wed, 04 May 2016 19:56:04 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Wed, 04 May 2016 19:56:04 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Wed, 04 May 2016 19:57:22 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Wed, 04 May 2016 19:57:22 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Wed, 04 May 2016 19:57:22 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Wed, 04 May 2016 20:32:43 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Wed, 04 May 2016 20:32:43 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Wed, 04 May 2016 20:32:44 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Mon, 09 May 2016 20:26:45 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Mon, 09 May 2016 20:26:45 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Mon, 09 May 2016 20:26:45 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+
+Error: Unable to substitute value for ":id" in URL pattern "/post/:id"
+    at /home/ubuntu/taggeador_lcm/node_modules/locomotive/node_modules/actionrouter/lib/entry.js:52:66
+    at Array.forEach (native)
+    at Entry.path (/home/ubuntu/taggeador_lcm/node_modules/locomotive/node_modules/actionrouter/lib/entry.js:50:13)
+    at Controller.urlFor (/home/ubuntu/taggeador_lcm/node_modules/locomotive/lib/helpers/dynamic/url.js:78:32)
+    at Controller.postPath (/home/ubuntu/taggeador_lcm/node_modules/locomotive/lib/helpers/route/entry.js:28:17)
+    at Controller.<anonymous> (/home/ubuntu/taggeador_lcm/app/controllers/pagesController.js:71:23)
+    at Query.<anonymous> (/home/ubuntu/taggeador_lcm/app/models/post.js:69:5)
+    at /home/ubuntu/taggeador_lcm/node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/ubuntu/taggeador_lcm/node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at process._tickCallback (node.js:415:13)
+Tue, 10 May 2016 15:44:35 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Tue, 10 May 2016 15:44:35 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+Tue, 10 May 2016 15:44:35 GMT connect deprecated methodOverride: use method-override npm module instead at config/initializers/30_middleware.js:17:20
+Error: Forbidden
+    at SendStream.error (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/send/index.js:245:16)
+    at SendStream.pipe (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/send/index.js:427:19)
+    at Object.serveStatic [as handle] (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:111:12)
+    at next (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at Object.favicon [as handle] (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/node_modules/serve-favicon/index.js:63:7)
+    at next (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at Object.handle (/home/ubuntu/taggeador_lcm/node_modules/connect-powered-by/lib/poweredBy.js:16:5)
+    at next (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at Object.logger (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/node_modules/morgan/index.js:136:5)
+    at next (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SessionStrategy.strategy.pass (/home/ubuntu/taggeador_lcm/node_modules/passport/lib/middleware/authenticate.js:318:9)
+    at SessionStrategy.authenticate (/home/ubuntu/taggeador_lcm/node_modules/passport/lib/strategies/session.js:67:10)
+    at attempt (/home/ubuntu/taggeador_lcm/node_modules/passport/lib/middleware/authenticate.js:341:16)
+    at Object.authenticate [as handle] (/home/ubuntu/taggeador_lcm/node_modules/passport/lib/middleware/authenticate.js:342:7)
+    at next (/home/ubuntu/taggeador_lcm/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at Object.initialize [as handle] (/home/ubuntu/taggeador_lcm/node_modules/passport/lib/middleware/initialize.js:62:5)

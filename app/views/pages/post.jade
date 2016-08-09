@@ -1,0 +1,55 @@
+extends ../layout.jade
+
+block append scripts
+	//script(src="js/tagsinput/typeahead.bundle.js")
+	//script(src="js/tagsinput/bootstrap-tagsinput.min.js")
+	script(src="js/jquery.textext/js/textext.core.js")
+	script(src="js/jquery.textext/js/textext.plugin.tags.js")
+	script(src="js/jquery.textext/js/textext.plugin.suggestions.js")
+	script(src="js/jquery.textext/js/textext.plugin.autocomplete.js")
+	script(src="js/jquery.textext/js/textext.plugin.arrow.js")
+	script(src="js/bootstrap.datepicker/js/bootstrap-datepicker.js")
+	script(src="js/post.js")
+
+block append css
+	//link(rel="stylesheet", href="js/tagsinput/bootstrap-tagsinput.css")
+	link(rel="stylesheet", href="js/jquery.textext/css/textext.core.css")
+	link(rel="stylesheet", href="js/jquery.textext/css/textext.plugin.tags.css")
+	link(rel="stylesheet", href="js/jquery.textext/css/textext.plugin.autocomplete.css")
+	link(rel="stylesheet", href="js/jquery.textext/css/textext.plugin.suggestions.css")
+	link(rel="stylesheet", href="js/jquery.textext/css/textext.plugin.arrow.css")
+	link(rel="stylesheet", href="js/bootstrap.datepicker/css/bootstrap-datepicker.min.css")
+
+block prepend header
+	a.btnReturn(href="/list") 
+		+icono("chevron-left","Volver")
+
+block content
+	section#post
+		if post.images
+			.images
+				each image in post.images
+					.image
+						img(src=image.url)
+		form(method="post", action=saveTagsPath())
+			input(type="hidden", name="id", value=post._id.toString())
+			fieldset#frmTags
+				each tag in tagsCategorias
+					.form-group
+						label= tag + ":"
+						if (tag != "fecha")
+							textarea(rows="2", name=tag, id=tag, data-tagsItems=post.tags[tag])
+						else
+							input(type="text", name=tag, class=tag, value=post.tags[tag]).form-control
+						
+
+				.buttons
+					div.markTagged
+						span Marcar como etiquetado
+						input(type="checkbox", name="markTagged")
+					button(type="submit", id="btnSaveContinue", name="btnSaveContinue", value="1")
+						+icono("floppy-disk", "Guardar y continuar")
+					button(type="submit", id="btnSave")
+						+icono("floppy-disk", "Guardar")
+					a.btnReturn(href="/list") 
+						+icono("chevron-left","Volver")
