@@ -34,7 +34,9 @@ function updateLinks(links) {
         })
         .style("fill", function(d) {
             var relatedChord=chordsById[d.tag];
-            return fillsCategorias( categorias.indexOf(relatedChord.categoria) )
+            var color = categorias.indexOf(relatedChord.categoria);
+            //no se porque no anda la función mando directamente
+            return coloresCategorias[ color ];
         });
 
       linkGroup.exit().remove();
@@ -239,7 +241,9 @@ function updateChords() {
      */
     categoriaEnter.append("path")
         .style("fill", function(d, i) {
-            var a = fillsCategorias( categorias.indexOf(d) );
+            var color = categorias.indexOf(d);
+            var a = fillsCategorias( color );
+            console.log(d + " " + color + " " + a);
             return a;
         })
         .attr("d", function (d,i) {
@@ -266,10 +270,6 @@ function updateChords() {
             return arc(angles, i);
         })
         .on("mouseover", function(d) {
-            /*************
-            Desactivo la funcionalidad del click en el arco.
-            **************/
-
             selectCategoria(d);
 
             var assocLinks;
@@ -288,7 +288,10 @@ function updateChords() {
             unselectCategoria();
             unselectNodes();
         })
-        .on("click", function(d) {
+        /*************
+        Desactivo la funcionalidad del click en el arco.
+        **************/
+        // .on("click", function(d) {
             // var assocLinks = d3.selectAll(".link." + d);
             // var todosSeleccionados = true;
             //
@@ -303,7 +306,7 @@ function updateChords() {
             // }
             //
             // pinNodesByLinks( assocLinks, !todosSeleccionados);
-        })
+        // })
         ;
 
     /**
@@ -407,9 +410,20 @@ function updateChords() {
             });
             selectNodes(assocNodesIds);
 
+            //coloreo el arco asociado
+            var $assocArc = d3.select(".arcText[data-tag='" + d.label + "']");
+            $assocArc.classed("selected", true);
+
         })
         .on("mouseout", function (d) {
             unselectNodes();
+            assocLinks = d3.selectAll(".link[data-tag='" + d.label + "']");
+            assocLinks.classed("selected", false);
+            assocLinks.classed("unselected", false);
+
+            //coloreo el arco asociado
+            var $assocArc = d3.select(".arcText[data-tag='" + d.label + "']");
+            $assocArc.classed("selected", false);
         })
         .on("click", function(d) {
             onTagClick(d);
@@ -417,9 +431,10 @@ function updateChords() {
         ;
 
     enter.append("path")
-        .style("fill-opacity",0)
-        //.style("stroke", "#000")
-        .style("stroke-opacity",0.7)
+        .attr("class", "arcText")
+        .attr("data-tag", function(d) {
+            return trimLabel(d.label);
+        })
         .style("stroke", function(d) {
             return fillsCategorias( categorias.indexOf(d.categoria) )
         })
@@ -450,7 +465,7 @@ function selectCategoria( d, selectedLinks ) {
     categoriaArcs.classed("selected", true);
     categoriaArcs.classed("unselected", false);
 
-    var noArcs = d3.selectAll(".arc");
+    var noArcs = d3.selectAll(".arc[data-categoria='" + d + "']");
     // noArcs.classed("unselected", true);
     noArcs.classed("selected", true);
 

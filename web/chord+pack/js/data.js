@@ -7,13 +7,19 @@ var dataCalls=[];
 var numCalls=0;
 var URL_WEBSERVICE = "http://localhost:8080/service/";
 // var URL_WEBSERVICE = "http://ec2-54-207-91-5.sa-east-1.compute.amazonaws.com/service/";
-
+var OFFLINE_MODE = true;
 
 function fetchData() {
-    dataCalls=[];
-    addStream(URL_WEBSERVICE + "tags", onFetchTags);
-    addStream(URL_WEBSERVICE + "imagenes", onFetchImagenes);
-    startFetch();
+    if ( !OFFLINE_MODE ) {
+        dataCalls=[];
+        addStream(URL_WEBSERVICE + "tags", onFetchTags);
+        addStream(URL_WEBSERVICE + "imagenes", onFetchImagenes);
+        startFetch();
+    } else {
+        onFetchTags(dumpTags);
+        onFetchImagenes(dumpImagenes);
+        main();
+    }
 }
 
 function onFetchTags(json) {

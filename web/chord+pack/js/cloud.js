@@ -15,9 +15,10 @@ var cloudHeight = outerRadius*2;
 
 var dataTagsRelations = [];
 
-d3.json(WEBSERVICE_URL, function(json) {
+// OFFLINE_MODE
+json = dumpTags;
 
-	// console.log(json);
+// d3.json(WEBSERVICE_URL, function(json) {
 	for ( index in json ) {
 		var palabra = json[index];
 		arrWords.push({
@@ -51,7 +52,7 @@ d3.json(WEBSERVICE_URL, function(json) {
 
 	processDataTagsRelations(json);
 	layout.start();
-});
+// });
 
 
 function draw(words) {

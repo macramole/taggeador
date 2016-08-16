@@ -93,7 +93,14 @@ var categorias = ["tecnologias", "sentidos", "disciplinasCientificas", "color", 
 var categoriasHuman = ["Tecnologias", "Sentidos", "D. científicas", "Color", "Tipo de actividad", "Personas", "Lugar", "D. artísticas"];
 // var categorias = ["tecnologias", "sentidos", "disciplinasCientificas", "tipoActividad", "personas", "lugar", "disciplinasArtisticas"];
 // var categoriasHuman = ["Tecnologias", "Sentidos", "D. científicas", "Tipo de actividad", "Personas", "Lugar", "D. artísticas"];
-var fillsCategorias = d3.scale.category10();
+// var fillsCategorias = d3.scale.category10();
+var coloresCategorias = [
+    "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728",
+    "#9467bd", "#8c564b", "#e377c2", '#7f7f7f'
+]
+var fillsCategorias = function(index) {
+    return coloresCategorias[index];
+}
 
 var linkGroup;
 
