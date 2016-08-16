@@ -266,6 +266,10 @@ function updateChords() {
             return arc(angles, i);
         })
         .on("mouseover", function(d) {
+            /*************
+            Desactivo la funcionalidad del click en el arco.
+            **************/
+
             selectCategoria(d);
 
             var assocLinks;
@@ -277,7 +281,7 @@ function updateChords() {
                 assocNodesIds.push( d3AssocLink.attr("data-node") );
             });
 
-            selectNodes(assocNodesIds);
+            // selectNodes(assocNodesIds);
             // console.log(d);
         })
         .on("mouseleave", function(d) {
@@ -285,20 +289,20 @@ function updateChords() {
             unselectNodes();
         })
         .on("click", function(d) {
-            var assocLinks = d3.selectAll(".link." + d);
-            var todosSeleccionados = true;
-
-            for ( var i = 0 ; i < assocLinks[0].length ; i++ ) {
-                var assocLink = assocLinks[0][i];
-                var d3AssocLink = d3.select(assocLink);
-                var d3AssocNode = d3.select("circle[data-id='" + d3AssocLink.attr("data-node") +  "']");
-                if ( !d3AssocNode.classed("pinned") ) {
-                    todosSeleccionados = false;
-                    break;
-                }
-            }
-
-            pinNodesByLinks( assocLinks, !todosSeleccionados);
+            // var assocLinks = d3.selectAll(".link." + d);
+            // var todosSeleccionados = true;
+            //
+            // for ( var i = 0 ; i < assocLinks[0].length ; i++ ) {
+            //     var assocLink = assocLinks[0][i];
+            //     var d3AssocLink = d3.select(assocLink);
+            //     var d3AssocNode = d3.select("circle[data-id='" + d3AssocLink.attr("data-node") +  "']");
+            //     if ( !d3AssocNode.classed("pinned") ) {
+            //         todosSeleccionados = false;
+            //         break;
+            //     }
+            // }
+            //
+            // pinNodesByLinks( assocLinks, !todosSeleccionados);
         })
         ;
 
@@ -428,22 +432,23 @@ function updateChords() {
 }
 
 function selectCategoria( d, selectedLinks ) {
-    if ( !selectedLinks ) {
-        selectedLinks = d3.selectAll(".link." + d)
-    }
+    // if ( !selectedLinks ) {
+    //     selectedLinks = d3.selectAll(".link." + d)
+    // }
 
     var allLinks = d3.selectAll(".link");
     allLinks.classed( "unselected", true );
 
-    selectedLinks.classed( "selected", true );
-    selectedLinks.classed( "unselected", false );
+    if ( selectedLinks ) {
+        selectedLinks.classed( "selected", true );
+        selectedLinks.classed( "unselected", false );
+    }
+    // var noCategoriaArcs = d3.selectAll(".categoriaArc");
+    // noCategoriaArcs.classed("selected", true);
 
-    var noCategoriaArcs = d3.selectAll(".categoriaArc");
-    noCategoriaArcs.classed("selected", true);
-
-    // var categoriaArcs = d3.selectAll(".categoriaArc[data-categoria='" + d + "']");
-    // categoriaArcs.classed("selected", true);
-    // categoriaArcs.classed("unselected", false);
+    var categoriaArcs = d3.selectAll(".categoriaArc[data-categoria='" + d + "']");
+    categoriaArcs.classed("selected", true);
+    categoriaArcs.classed("unselected", false);
 
     var noArcs = d3.selectAll(".arc");
     // noArcs.classed("unselected", true);

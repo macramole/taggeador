@@ -2,6 +2,7 @@ var locomotive = require('locomotive')
   , Controller = locomotive.Controller;
 
 var serviceController = new Controller();
+var blogModel = require('../models/blog.js');
 var postModel = require('../models/post.js');
 
 serviceController.before('*', function(next) {
